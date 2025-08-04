@@ -39,3 +39,12 @@ h1 {
 }
 
 /* Your CSS below here */
+body {
+    background-image:
+        /* linear-gradient(to bottom, #f0f0f0, #d0d0d0), */
+        linear-gradient(to top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.4)),
+        url('/2_CSS/top-image.png'),
+        url('/2_CSS/bottom-image.png');
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top center, top center, bottom center;
+}
