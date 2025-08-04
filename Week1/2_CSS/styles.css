@@ -1,0 +1,33 @@
+h1 {
+  color: red;
+}
+
+.special {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* descendant combinator */
+li em {
+  color: pink;
+}
+/* next-sibling combinator */
+h1 + p {
+  font-size: 200%;
+}
+
+p span {
+  color: blue;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
