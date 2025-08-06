@@ -47,4 +47,7 @@ body {
         url('/2_CSS/bottom-image.png');
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: top center, top center, bottom center;
+    background-color: white;
+    border-top: 1mm solid red;
+    border-bottom: 1mm solid red;
 }
