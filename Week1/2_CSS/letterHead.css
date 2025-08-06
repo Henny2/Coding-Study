@@ -51,3 +51,10 @@ body {
     border-top: 1mm solid red;
     border-bottom: 1mm solid red;
 }
+
+h1 {
+    background-image: url('/2_CSS/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
