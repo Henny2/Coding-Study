@@ -1,0 +1,21 @@
+html {
+    font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+div {
+    /* box-sizing: border-box; */
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    margin: auto;
+    text-align: center;
+    /* padding: 50px; */
+    border: 1px solid rgb(0, 111, 94);
+    /* root is 16px by default, so this would we 17.6px */
+    font-size: 1.1rem;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+}
